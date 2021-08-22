@@ -1,0 +1,21 @@
+button:hover{
+    transition: 1s;
+    transform: scale(1.5);
+    margin-left: 20px;
+}
+
+@keyframes clrs {
+    0%{
+        background-color: red;
+    }
+    50%{
+        background-color: pink;
+    }
+    100%{
+        background-color: red;
+    }
+}
+
+body{
+    animation: clrs 10s infinite;
+}
